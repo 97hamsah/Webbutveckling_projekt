@@ -1,5 +1,6 @@
-$(".menu-toggle").on('click', function() {
-  $(this).toggleClass("on");
-  $('.menu-section').toggleClass("on");
-  $("nav ul").toggleClass('hidden');
+$(".toggle-icon").click(function() {
+  $('#nav-container').toggleClass("pushed");
 });
+
+
+/*** starwars.com's Toggle Icon Animation ***/

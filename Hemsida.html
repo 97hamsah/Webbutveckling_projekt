@@ -11,25 +11,24 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/stil.css">
         <script type="text/javascript" src="js/js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
 
     <body>
-      <h1>Boden</h1>
-
-      <div class="menu-section">
-        <div class="menu-toggle">
-          <div class="one"></div>
-          <div class="two"></div>
-          <div class="three"></div>
+      <div>
+        <script>
+          $(".toggle-icon").click(function() {
+          $('#nav-container').toggleClass("pushed");
+        });
+        </script>
       </div>
-      <nav>
-        <ul role="navigation" class="hidden">
-    			<li><a href="#">work</a></li>
-    			<li><a href="#">about</a></li>
-    			<li><a href="#">resume</a></li>
-    			<li><a href="#">contact</a></li>
-    		</ul>
-      </nav>
-      </div>
+      <div id="nav-container">
+        <div class="toggle-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div><!-- /toggle-icon -->
+      </div><!-- /nav-container -->
     </body>
 <html>
