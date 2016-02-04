@@ -1,0 +1,21 @@
+.navbar {
+  background: -webkit-linear-gradient(right, #ff6666,  tomato);
+}
+
+.navbar .container .navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar .container .navbar-header .navbar-brand:hover {
+  color: lightgrey;
+  transition: all ease-in-out .2s;
+}
+
+.navbar .collapse .nav a {
+    color: white;
+}
+
+.navbar .collapse .nav a:hover {
+  color: lightgrey;
+  transition: all ease-in-out .2s;
+}
