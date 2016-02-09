@@ -19,3 +19,7 @@
   color: lightgrey;
   transition: all ease-in-out .2s;
 }
+
+.bodenbild {
+  width: 100%;
+}
