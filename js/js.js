@@ -12,3 +12,9 @@ $(function(){
                 }
         });
   });
+
+  var touch = Modernizr.touch;
+  $('.Gustav').imageScroll({
+    imageAttribute: (touch === true) ? 'image-mobile' : 'image',
+    touch: touch
+  });
