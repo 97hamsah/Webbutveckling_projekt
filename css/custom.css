@@ -1,6 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
 
 
+.navbar {
+  background-color: white;
+}
+
+.container {
+  display: none;
+}
+
 .navbar .navbar-inverse{
   background: rgba(0, 0, 0, 0.55);
 }
@@ -43,9 +51,9 @@ div.navbar div.collapse ul li a:hover {
 }
 
 .firstPic {
-  background-image: url("../img/Gusatav.png");
   width: 100%;
   height: auto;
+  margin-top: 80px;
 }
 
 .firstPic h1 {
@@ -60,10 +68,10 @@ div.navbar div.collapse ul li a:hover {
 
 .merInfo {
   text-align: center;
+  margin-top: 100px;
 }
 
 #upp {
-  margin-top: 20px;
 }
 
 #rod {
@@ -92,6 +100,10 @@ div.navbar div.collapse ul li a:hover {
 
 .whiteBread {
   text-align: center;
+}
+
+.BodenBild {
+  width: 100%;
 }
 
 
