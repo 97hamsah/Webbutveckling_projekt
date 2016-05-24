@@ -10,24 +10,23 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/custom.css" rel="stylesheet"/>
+        <link href="css2/bootstrap.min.css" rel="stylesheet" />
+        <link href="css2/custom.css" rel="stylesheet"/>
         <script type="text/javascript" src="js/js.js"></script>
         <link rel="icon" href="img/Teknik.jpg" type="image" sizes="16x16" />
         <link rel="shortcut icon" type="image" href="img/Teknik.jpg" sizes="144x144" />
     </head>
-
     <body class="Bakgrund">
 
     <div class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
 
-      				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      				</button>
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
           </div>
 
           <div class="collapse navbar-collapse navHeaderCollapse">
@@ -40,47 +39,26 @@ and open the template in the editor.
         </div>
       </div>
 
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      	<div class="row">
+      		<label for="name">Ditt namn:</label><br />
+      		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      	</div>
+      	<div class="row">
+      		<label for="email">Din email:</label><br />
+      		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      	</div>
+      	<div class="row">
+      		<label for="message">Ditt meddelande:</label><br />
+      		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      	</div>
+      	<input id="submit_button" type="submit" value="Skicka email" />
+      </form>
 
 
-      <div class="huvud">
-        <h1>Teknikprogrammet</h1>
-      </div>
-
-      <img class="Gustav" src="img/Gusatav.png" />
-
-      <div class="firstPic">
-        <h1>Gustav Hansson</h1>
-        <div class="infoText">
-          <p>
-            "Jag valde Teknik för att vara med och skapa en bra framtid"
-            <br />
-            Gustav går tredje året på teknikprogrammet nu och är dess representant.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="merInfo">
-        <div class="col-md-4">
-          <p id="upp">Elevantal</p>
-          <p id="rod">ca 100</p>
-        </div>
-
-        <div class="col-md-4">
-          <p id="upp">Skola</p>
-          <p id="rod">Björknäsgymnasiet</p>
-        </div>
-
-        <div class="col-md-4">
-          <p id="upp">Framtid</p>
-          <p id="rod">Ingenjör</p>
-        </div>
-
-      </div>
-
-      <img class="BodenBild" src="img/Mac.JPG" />
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
+
 <html>
